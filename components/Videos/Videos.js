@@ -5,7 +5,7 @@ export default function Videos({videolist}) {
       <>
         {/* <h2 className={styles.videos__h2}>Want some demos?</h2> */}
         <section className={styles.videos}>
-        <h2 className={styles.videos__h2}>Want some demos?</h2>
+        <h2 className={styles.videos__h2}>Demos and Tutorials</h2>
         
           {videolist.map(video =>
               <div className={styles.videos__item}
