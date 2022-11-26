@@ -62,16 +62,16 @@ export default function Footer() {
                 <p 
                 >Follow Us!
                 </p>
-                <a href='#' target='_blank'>
+                {/* <a href='#' target='_blank'>
                   <FontAwesomeIcon className={styles.footer__content__social__network__img} icon={faFacebook} />
                 </a>
                 <a href='#' target='_blank'>
                   <FontAwesomeIcon className={styles.footer__content__social__network__img} icon={faLinkedin} />
-                </a>
-                <a href='#' target='_blank'>
+                </a> */}
+                <a href='https://www.instagram.com/kurkusounds' target='_blank'>
                   <FontAwesomeIcon className={styles.footer__content__social__network__img} icon={faInstagram} />
                 </a>
-                <a href='#' target='_blank'>
+                {/* <a href='#' target='_blank'>
                   <FontAwesomeIcon className={styles.footer__content__social__network__img} icon={faTwitter} />
                 </a>
                 <a href='#' target='_blank'>
@@ -79,7 +79,7 @@ export default function Footer() {
                 </a>
                 <a href='#' target='_blank'>
                 <FontAwesomeIcon className={styles.footer__content__social__network__img} icon={faGithub} />
-                </a>
+                </a> */}
             </div>
           </section>
           <Contact_Form />
