@@ -21,6 +21,7 @@ export default function Contact_Form() {
               className={styles.footer__content__contact__form__input}
               required
               id="name"
+              name="name"
               type="text"
             /> 
             <label className={styles.footer__content__contact__form__label}htmlFor="email">Email:</label>
@@ -28,6 +29,7 @@ export default function Contact_Form() {
                 className={styles.footer__content__contact__form__input}
                 required
                 id="email"
+                name="email"
                 type="email"
             />
           </div>
@@ -36,6 +38,7 @@ export default function Contact_Form() {
             <textarea className={styles.footer__content__contact__form__textArea}
               required
               id="message"
+              name="message"
               type="text"
               rows="6"
             />      
