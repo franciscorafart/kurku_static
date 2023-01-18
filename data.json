@@ -1,13 +1,16 @@
 {
     "videolist": [
         {
-            "id": 1,
             "title": "How to use Kurku?",
             "content": "How to use Kurku - Beta version",
             "src":"https://www.youtube.com/embed/6bNk6V5h9YU"
         },
         {
-            "id": 2,
+            "title": "MIDI Bus on Mac",
+            "content": "Setting up a MIDI bus channel on a Mac",
+            "src":"https://www.youtube.com/embed/dObJhGONBo8"
+        },
+        {
             "title": "Kurku Demo",
             "content": "Hooking up Kurku to Ableton Live",
             "src":"https://www.youtube.com/embed/ilXhMrsUQ7w"

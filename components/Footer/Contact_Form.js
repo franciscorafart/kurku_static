@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import styles from './footer.module.scss';
 export default function Contact_Form() {
   return (

@@ -1,35 +1,35 @@
 import styles from './footer.module.scss';
-import { useState } from 'react';
+// import { useState } from 'react';
 import Contact_Form from './Contact_Form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faInstagram, faYoutube, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 export default function Footer() {
   
-  const [subscribeEmailNl, setSubscribeEmailNl] = useState('');
-  const [isEmailSubscribed, setIsEmailSubscribed] = useState(false);
-  const [alertSubscribed, setAlertSubscribed] = useState(false);
+  // const [subscribeEmailNl, setSubscribeEmailNl] = useState('');
+  // const [isEmailSubscribed, setIsEmailSubscribed] = useState(false);
+  // const [alertSubscribed, setAlertSubscribed] = useState(false);
 
-  const handleSubscribe = e => {
-    e.preventDefault();
-    const data = {
-      subscribeEmailNl,
-    };
-    console.log( data.subscribeEmailNl + ' subscribed to NL');
-    setIsEmailSubscribed(true);  
-    setAlertSubscribed(true);
-    setTimeout(()=>{
-      setAlertSubscribed(false);    
-    }, 2000);
-    setSubscribeEmailNl('');
-  };
+  // const handleSubscribe = e => {
+  //   e.preventDefault();
+  //   const data = {
+  //     subscribeEmailNl,
+  //   };
+  //   console.log( data.subscribeEmailNl + ' subscribed to NL');
+  //   setIsEmailSubscribed(true);  
+  //   setAlertSubscribed(true);
+  //   setTimeout(()=>{
+  //     setAlertSubscribed(false);    
+  //   }, 2000);
+  //   setSubscribeEmailNl('');
+  // };
 
     return (
       <footer className={styles.footer}>
         <div className={styles.footer__content}>
           <section
             className={styles.footer__content__social}>
-            <form className={styles.footer__content__social__form}
+            {/* <form className={styles.footer__content__social__form}
               onSubmit={handleSubscribe}
             >
               <label className={styles.footer__content__social__form__label}>Subscribe to our Newsletter
@@ -57,7 +57,7 @@ export default function Footer() {
                   </p>
               </div>
             }
-            </form>
+            </form> */}
             <div className={styles.footer__content__social__network}>
                 <p 
                 >Follow Us!

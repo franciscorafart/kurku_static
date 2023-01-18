@@ -5,26 +5,25 @@ export default function Videos({videolist}) {
       <>
         {/* <h2 className={styles.videos__h2}>Want some demos?</h2> */}
         <section className={styles.videos}>
-        <h2 className={styles.videos__h2}>Demos and Tutorials</h2>
-        
-          {videolist.map(video =>
-              <div className={styles.videos__item}
+          <h2 className={styles.videos__h2}>Demos and Tutorials</h2>
+
+            {videolist.map(video =>
+                <div className={styles.videos__item}
                 key={video.id}
                 style={{ padding: 20, borderBottom: '1px solid #ccc' }}
                 >
-                  <iframe className={styles.videos__item__vid}
-                    src={video.src} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen sandbox='allow-same-origin allow-scripts allow-presentation'
-                  />
-                  <h3 className={styles.videos__h3}>
-                    {video.title}
-                  </h3>
-                  <p className={styles.videos__p}> 
-                    {video.content}
-                  </p>
-              </div>
-            )
-          }
-
+                    <iframe className={styles.videos__item__vid}
+                      src={video.src} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen sandbox='allow-same-origin allow-scripts allow-presentation'
+                      />
+                    <h3 className={styles.videos__h3}>
+                      {video.title}
+                    </h3>
+                    <p className={styles.videos__p}> 
+                      {video.content}
+                    </p>
+                </div>
+              )
+            }
           {/* static version video div */}
           {/*<div className={styles.videos__item}>
               <iframe className={styles.videos__item__vid}
