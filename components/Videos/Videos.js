@@ -2,8 +2,6 @@ import styles from './videos.module.scss';
 
 export default function Videos({videolist}) {
     return (
-      <>
-        {/* <h2 className={styles.videos__h2}>Want some demos?</h2> */}
         <section className={styles.videos}>
           <h2 className={styles.videos__h2}>Demos and Tutorials</h2>
 
@@ -37,9 +35,7 @@ export default function Videos({videolist}) {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, rerum?
               </p>
             </div>*/}
-        </section>
-      </>
-               
+        </section>               
     )
   }
 
