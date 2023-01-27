@@ -5,6 +5,7 @@
     text-align: center;
     color: white;
     position: relative;
+    min-height: calc(100vw * 0.5629);
 
     &__title {
         z-index: 4;
@@ -118,7 +119,7 @@
         align-self: center;
         // width: 100vw; same as below
         filter: grayscale(1);
-        width: 100%;
+        width: 100vw;
         height: auto;
         z-index: 2;
         @media (max-width:650px){
