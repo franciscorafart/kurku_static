@@ -20,6 +20,16 @@ export default function Home() {
         <title>Kurku</title>
         <link rel="icon" href="./favicon.ico" />
         <script src="https://kit.fontawesome.com/0be556c1af.js" crossOrigin="anonymous"></script>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRQE3ESSSM"></script>
+        <script>{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZRQE3ESSSM');
+          `
+        }
+        </script>
       </Head>
       <main>
       <a href='#header'  >
