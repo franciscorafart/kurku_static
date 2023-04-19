@@ -30,6 +30,8 @@ export default function Home() {
           `
         }
         </script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6827136611762793"
+     crossorigin="anonymous"></script>
       </Head>
       <main>
       <a href='#header'  >
