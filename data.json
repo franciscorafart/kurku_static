@@ -18,5 +18,31 @@
             "content": "Setting up a MIDI bus channel on a Mac",
             "src":"https://www.youtube.com/embed/dObJhGONBo8"
         }
+    ],
+    "posts": [
+        {
+            "id": "why-kurku",
+            "title": "Why we built Kurku?",
+            "subtitle": "An affordable and accessible body-tracking MIDI controller",
+            "content": [
+                {"header": "The problem", "parragraph": "We built Kurku to solve a longstanding problem in the MIDI controller industry - the need for an affordable and easy-to-use tool that leverages body movement to control sounds through MIDI. The existing solutions for body-tracking MIDI controllers require expensive and uncomfortable hardware, which limits their accessibility to musicians and performers."},
+                {"header": "", "parragraph": "Kurku solves this problem by utilizing the technology already available to everyone - a laptop, webcam, and web browser. This approach makes Kurku affordable and accessible to a broader range of musicians without requiring specialized hardware or software."},
+                {"header": "How Kurku works", "parragraph": "The app utilizes AI body tracking models and the WebMidi API to provide an intuitive and customizable tool for musicians and performers. It allows users to map their body movements to different MIDI messages, creating a more immersive and interactive performance experience."},
+                {"header": "Why the browser?", "parragraph": "The most significant difference between Kurku and other MIDI software is that Kurku runs on a web browser. Being a web app, anyone can access and try it out, as it runs on all desktop operating systems (Windows, Mac, and Linux) and uses ubiquitous and open-source web technology. But don't worry if you don't have an internet connection; you can do without the internet to run it. One of the great features of Kurku is that it can work offline for paying users, making it usable at venues or spaces without internet connections."},
+                {"header": "", "parragraph": "Overall, Kurku represents a novel solution to the music industry by offering an affordable, accessible, and customizable tool for leveraging body movement to control sounds through MIDI. It has the potential to revolutionize live performances and enhance the creativity and expressiveness of musicians and performers."}
+
+            ]
+        },
+        {
+            "id": "future-kurku",
+            "title": "The future of Kurku",
+            "subtitle": "Hand gesture recognition",
+            "content": [
+                {"header": "", "parragraph": "Kurku is a tool for musicians and performers that allows body movement to control sounds through MIDI using AI body tracking models and the WebMidi API. Since its launch, Kurku has garnered much interest and positive feedback from musicians who have utilized it in their performances. Based on this feedback, we are excited to announce a new feature we plan to implement - hand gesture control for MIDI notes."},
+                {"header": "", "parragraph": "With this new feature, you'll be able to use hand gestures to trigger MIDI notes and control continuous MIDI messages with your body movement. With MIDI note control, you can play notes or trigger specific behaviors such as effects, samples, and loops."},
+                {"header": "How", "parragraph": "To allow you to add your personalized gestures to Kurku, we will add an interface that trains the app's machine-learning engine to recognize custom hand gestures by feeding pictures taken by your webcam. Once you train Kurku to recognize your hand gesture, you will be able to select it on the Kurku MIDI controller interface."},
+                {"header": "", "parragraph": "We are excited about the future of Kurku and its potential to revolutionize how musicians approach live performances. With the implementation of hand gesture control and the expansion of MIDI functionality, we are confident Kurku will become a must-have tool for musicians and performers worldwide."}
+            ]
+        }
     ]
 }
