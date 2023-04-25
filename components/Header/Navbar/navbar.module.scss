@@ -1,17 +1,16 @@
 .header {
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-padding: 0.2rem;
-width: 100%;
-background-color: white;
-color: black;
-@media(max-width:650px){
-    justify-content: space-around;
-    }
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    
     &__logo {
         height: 40px;
     }
+    
     &__nav {  
         display: flex;
         justify-content: space-around;
@@ -40,9 +39,11 @@ color: black;
             }
         }
         &__link:hover{
-            font-size: 1.5rem;
+            // font-size: 1.5rem;
             color:rgb(62, 140, 187);
         }
     }
-    
+    @media(max-width:650px){
+        justify-content: space-around;
+    }
 }

@@ -24,6 +24,7 @@
             "id": "why-kurku",
             "title": "Why we built Kurku?",
             "subtitle": "An affordable and accessible body-tracking MIDI controller",
+            "author" : "Francisco Rafart",
             "content": [
                 {"header": "The problem", "parragraph": "We built Kurku to solve a longstanding problem in the MIDI controller industry - the need for an affordable and easy-to-use tool that leverages body movement to control sounds through MIDI. The existing solutions for body-tracking MIDI controllers require expensive and uncomfortable hardware, which limits their accessibility to musicians and performers."},
                 {"header": "", "parragraph": "Kurku solves this problem by utilizing the technology already available to everyone - a laptop, webcam, and web browser. This approach makes Kurku affordable and accessible to a broader range of musicians without requiring specialized hardware or software."},
@@ -37,6 +38,7 @@
             "id": "future-kurku",
             "title": "The future of Kurku",
             "subtitle": "Hand gesture recognition",
+            "author" : "Francisco Rafart",
             "content": [
                 {"header": "", "parragraph": "Kurku is a tool for musicians and performers that allows body movement to control sounds through MIDI using AI body tracking models and the WebMidi API. Since its launch, Kurku has garnered much interest and positive feedback from musicians who have utilized it in their performances. Based on this feedback, we are excited to announce a new feature we plan to implement - hand gesture control for MIDI notes."},
                 {"header": "", "parragraph": "With this new feature, you'll be able to use hand gestures to trigger MIDI notes and control continuous MIDI messages with your body movement. With MIDI note control, you can play notes or trigger specific behaviors such as effects, samples, and loops."},

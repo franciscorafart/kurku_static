@@ -3,7 +3,7 @@ export default function Contact_Form() {
   return (
     <section className={styles.footer__content__contact}> 
       <p>
-        Contact Me
+        Contact Us
       </p>
       <form 
       name="contact"

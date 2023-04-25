@@ -8,6 +8,7 @@ import { faSquareCaretUp } from '@fortawesome/free-solid-svg-icons';
 // Components
 import Head from 'next/head';
 import Header from '../components/Header/Header';
+import Blog from '../components/Blog/Blog';
 import Videos from '../components/Videos/Videos';
 import Footer from '../components/Footer/Footer';
 import data from '../data.json';
@@ -38,6 +39,7 @@ export default function Home() {
           <FontAwesomeIcon id='backToTop' icon={faSquareCaretUp} />
         </a>
         <Header/>
+        <Blog posts={data.posts} />
         <Videos videolist={data.videolist}/>
         <Footer/>
       </main>

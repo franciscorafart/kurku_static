@@ -6,11 +6,11 @@ export default function Navbar() {
        <section className={styles.header}>
             <img className={styles.header__logo} src="/images/kurku_logo_2.jpeg" alt="Vercel" />
 
-        {/* <nav className={styles.header__nav}>
-            <a href='#' className={styles.header__nav__link}>link</a>
-            <a href='#' className={styles.header__nav__link}>link</a>
-            <a href='#' className={styles.header__nav__link}>link</a>
-        </nav> */}
+        <nav className={styles.header__nav}>
+            <a href='https://app.kurku.tech' className={styles.header__nav__link}>Try Kurku</a>
+            {/* <a href='#' className={styles.header__nav__link}>link</a>
+            <a href='#' className={styles.header__nav__link}>link</a> */}
+        </nav>
        </section>
         
     )

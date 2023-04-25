@@ -2,8 +2,9 @@ import styles from './videos.module.scss';
 
 export default function Videos({videolist}) {
     return (
-        <section className={styles.videos}>
+        <section className={styles.container}>
           <h2 className={styles.videos__h2}>Demos and Tutorials</h2>
+            <div className={styles.videos}>
 
             {videolist.map(video =>
                 <div className={styles.videos__item}
@@ -22,6 +23,7 @@ export default function Videos({videolist}) {
                 </div>
               )
             }
+            </div>
           {/* static version video div */}
           {/*<div className={styles.videos__item}>
               <iframe className={styles.videos__item__vid}
