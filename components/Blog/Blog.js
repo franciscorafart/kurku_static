@@ -32,6 +32,7 @@ export default function Videos({posts}) {
             <style jsx>{`
                 .container {
                     width: 100%;
+                    padding-bottom: 120px;
                 }
                 section {
                     display: flex;
