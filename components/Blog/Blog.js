@@ -73,6 +73,9 @@ export default function Videos({posts}) {
                     padding-bottom: 10px;
                 }
                 @media(max-width:650px){
+                    article {
+                        width: 90%;
+                    }
                     h2 {
                         font-size: max(2rem, 1vw);
                         letter-spacing: 1rem;
