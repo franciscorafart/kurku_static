@@ -9,7 +9,7 @@ export default function Header() {
         <h1 className={styles.header__title} > Kurku</h1>
         <p className={styles.header__p}>Body-tracking web MIDI controller powered by AI</p>
 
-        <a className={styles.header__a} href="https://app.kurku.tech" target="_blank" >Launch Kurku!</a>
+        <a className={styles.header__a} href="https://kurku.tech" target="_blank" >Launch Kurku!</a>
         <video 
             className={styles.header__iframe} 
             src="https://player.vimeo.com/progressive_redirect/playback/775608314/rendition/1080p/file.mp4?loc=external&signature=9db5fba2fb1846f0a6064661a94634c34934c4276bb848947acf6e4fb3c6a3c3" 

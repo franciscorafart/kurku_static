@@ -7,7 +7,7 @@ export default function Navbar() {
             <img className={styles.header__logo} src="/images/kurku_logo_2.jpeg" alt="Vercel" />
 
         <nav className={styles.header__nav}>
-            <a href='https://app.kurku.tech' className={styles.header__nav__link}>Launch Kurku app!</a>
+            <a href='https://kurku.tech' className={styles.header__nav__link}>Launch Kurku app!</a>
             {/* <a href='#' className={styles.header__nav__link}>link</a>
             <a href='#' className={styles.header__nav__link}>link</a> */}
         </nav>
