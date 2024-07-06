@@ -3,7 +3,7 @@ export default function Videos() {
             <section >
                 <h2>What is Kurku?</h2>
                 <div className="p-container">
-                    <p>Introducing Kurku, the revolutionary MIDI controller software that lets you take control of your external MIDI devices using just your body movements. Unlike other body controllers on the market, Kurku requires no additional sensors or hardware beyond your laptop, browser, and integrated webcam. Say goodbye to expensive wearables and hardware - Kurku is accessible and affordable for everyone. Try it for free today!</p>
+                    <p>Introducing Kurku, an innovative MIDI controller software that lets you control your MIDI devices using your body movements. Unlike other body-movement controllers, Kurku requires no additional sensors or hardware beyond your laptop, browser, and webcam. Say goodbye to expensive wearables and hardware - Kurku is accessible and affordable for everyone. Try it for free today!</p>
                 </div>
                 
             </section>
